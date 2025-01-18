@@ -9,7 +9,7 @@ import Project from '../pages/Project'
 
 function MainRout() {
   return (
-    <div>
+    <div className='w-full'>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>

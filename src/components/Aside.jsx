@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 function Aside() {
     return (
-        <div className='border w-[200px] bg-black'>
-            <div className='border h-[100px] flex justify-center items-center'>
+        <div className='border border-[#3D3D3D] h-[725px] w-[200px] bg-black'>
+            <div className=' h-[100px] flex justify-center items-center'>
                 <img src="https://t4.ftcdn.net/jpg/04/83/17/69/360_F_483176993_LqgkuE0uw4S5IgaOm41L9FCFIJi8rKlj.jpg" alt="" width={"70px"} />
                 <h3>Unnati</h3></div>
             <div className='p-3'>
