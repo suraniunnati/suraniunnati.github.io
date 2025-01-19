@@ -12,6 +12,37 @@ body{
     background-size: cover;
     background-position: left;   
 }
+.home h1{
+  font-weight: 800;
+}
 input::placeholder,textarea::placeholder{
     color: rgba(255, 255, 255, 0.86);
+}
+.icon,.skill,.ab1{
+    background: linear-gradient(#1DBAB5,#109BBB); 
+}
+.ab1{
+    clip-path: polygon(0 0, 0% 100%, 35% 100%);
+}
+.ab2{
+    clip-path: polygon(0 59%, 0% 100%, 100% 100%);
+    background-image: url("https://img.freepik.com/free-vector/wavy-minimal-lights-background_23-2148464097.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    font-family: "Lobster", serif;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.photo{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.037),rgba(0, 0, 0, 0.952)),url("assets/photo.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 1px 10px 1px black;
+}
+.edu{
+    background-image: url("https://st5.depositphotos.com/36768748/66804/i/450/depositphotos_668044702-stock-photo-abstract-cyan-halftone-dots-background.jpg");
+    background-size: cover;
+    background-position: top;
 }
