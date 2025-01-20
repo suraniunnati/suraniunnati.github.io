@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Skill from './Skill';
 import About from './About';
 import Education from './Education';
+import Project from './Project';
 
 function Home() {
   const words = ['CODER', 'DESIGNER'];
@@ -37,6 +38,7 @@ function Home() {
     <About/>
     <Skill/>
     <Education/>
+    <Project/>
     <Contact/>
     </>
   );

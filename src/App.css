@@ -18,11 +18,20 @@ body{
 input::placeholder,textarea::placeholder{
     color: rgba(255, 255, 255, 0.86);
 }
-.icon,.skill,.ab1{
+.icon,.skill,.ab1,.pr1,.pr2{
     background: linear-gradient(#1DBAB5,#109BBB); 
+    
 }
 .ab1{
     clip-path: polygon(0 0, 0% 100%, 35% 100%);
+}
+.pr1{
+    clip-path: polygon(99% 0, 0% 100%, 100% 100%);
+    z-index: -2;
+}
+.pr2{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    z-index: -2;
 }
 .ab2{
     clip-path: polygon(0 59%, 0% 100%, 100% 100%);
@@ -46,3 +55,8 @@ input::placeholder,textarea::placeholder{
     background-size: cover;
     background-position: top;
 }
+.contact{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvVvVhFDAr0pgsz9fzsJg-1PDq9l8Gok9bYl2prPIgQDTFh8Xb9ZSKJKAlYAkoguLpa8&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+  }

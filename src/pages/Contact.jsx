@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
+    <div className='contact '>
       <form action="" className='w-[50%] m-auto p-5 mt-20'>
         <input type="text" placeholder='Your Name' className='w-full h-[40px] mt-3 ps-2 border border-[gray] shadow-sm shadow-[gray] bg-transparent rounded-md'/>
         <input type="text" placeholder='Your Email' className='w-full h-[40px] mt-3 ps-2 border border-[gray] shadow-sm shadow-[gray] bg-transparent rounded-md'/>
