@@ -1,8 +1,7 @@
 
 import './App.css'
-import Aside from './components/aside'
-import Contact from './pages/Contact'
-import Home from './pages/Home'
+import Aside from './components/Aside'
+
 import MainRout from './Router/MainRout'
 
 function App() {
