@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Aside() {
     return (
-        <div className='border-e border-[#17191B] h-[800px] w-[200px] bg-black sticky top-0'>
+        <div className='border-e border-[#17191B] h-[800px] w-[250px] bg-black sticky top-0 p-1'>
             <div className=' h-[100px] flex justify-center items-center'>
                 <img src="https://i.pinimg.com/736x/d6/10/d9/d610d9d365f203d7eda5a1cd752a8682.jpg" alt="" width={"150px"} className='h-[100px]'/>
                 </div>

@@ -3,7 +3,8 @@ import React from 'react'
 function Contact() {
   return (
     <div className='contact '>
-      <form action="" className='w-[50%] m-auto p-5 mt-20'>
+      <h1 className='text-center text-5xl font-bold pt-10'>CONTACT</h1>
+      <form action="" className='w-[50%] m-auto p-5 mt-15'>
         <input type="text" placeholder='Your Name' className='w-full h-[40px] mt-3 ps-2 border border-[gray] shadow-sm shadow-[gray] bg-transparent rounded-md'/>
         <input type="text" placeholder='Your Email' className='w-full h-[40px] mt-3 ps-2 border border-[gray] shadow-sm shadow-[gray] bg-transparent rounded-md'/>
         <input type="text" placeholder='Youe Number' className='w-full h-[40px] mt-3 ps-2 border border-[gray] shadow-sm shadow-[gray] bg-transparent rounded-md'/>

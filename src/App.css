@@ -20,7 +20,6 @@ input::placeholder,textarea::placeholder{
 }
 .icon,.skill,.ab1,.pr1,.pr2{
     background: linear-gradient(#1DBAB5,#109BBB); 
-    
 }
 .ab1{
     clip-path: polygon(0 0, 0% 100%, 35% 100%);

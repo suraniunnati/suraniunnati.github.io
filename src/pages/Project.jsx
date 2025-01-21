@@ -54,7 +54,7 @@ function Project() {
       </div>
 
     <div className='flex justify-center p-3 mt-5'>
-      <Link><button className='p-2 bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] w-[180px] h-[50px]font-bold rounded'>MORE <i class="fa-solid fa-right-long"></i></button></Link></div>
+      <Link to="/projectlist"><button className='p-2 bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] w-[180px] h-[50px]font-bold rounded'>MORE <i class="fa-solid fa-right-long"></i></button></Link></div>
     </div>
   )
 }
