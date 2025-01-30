@@ -90,20 +90,20 @@ function Projectlist() {
 
   return (
     <div>
-        <div id="titlemain" className='p-5 shadow-sm shadow-[#1DBAB5] rounded-lg m-5'>
+        <div id="titlemain" className='wow animate__animated animate__backInDown p-5 shadow-sm shadow-[#1DBAB5] rounded-lg m-5'>
             <h3 className='font-bold text-2xl mb-2'>My Development Journey</h3>
             <li className='text-[#B7B7B7] text-sm'>50+ Web Pages: Designed and developed responsive web pages.</li>
             <li className='text-[#B7B7B7] text-sm'>5+ Websites: Built fully functional, dynamic websites.</li>
            <li className='text-[#B7B7B7] text-sm'>Other Projects: Worked on interactive apps, responsive designs, and API integrations.</li>
         </div>
-        <div className='w-[30%] flex justify-around items-center m-auto'>
+        <div className='xl:w-[30%] flex justify-around items-center m-auto'>
             <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md '  onClick={() => filterData("webpage")}>Webpages</button>
             <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md'  onClick={() => filterData("website")}>Website</button>
             <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md'  onClick={() => filterData("outher")}>Outher</button>
         </div>
-        <div className='grid grid-cols-3 gap-5 w-[85%] m-auto my-10 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 w-[85%] m-auto my-10 '>
            { filteredData.map((el)=>{
-                return <div id='alldata' className='shadow shadow-[#1DBAB5] rounded-lg p-3'>
+                return <div id='alldata' className='wow animate__animated animate__bounceOut shadow shadow-[#1DBAB5] rounded-lg p-3'>
                     <img src={el.img} alt="" />
                     <h3 className='mt-2'>{el.title}</h3>
                     <a href={el.gitlink} className='border-b rounded-lg text-sm p-1'><button className='mt-2'><i class="fa-brands fa-sourcetree text-[#109BBB]"></i> Source</button></a>
