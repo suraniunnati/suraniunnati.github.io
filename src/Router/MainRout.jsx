@@ -7,6 +7,7 @@ import Education from '../pages/Education'
 import Contact from '../pages/Contact'
 import Project from '../pages/Project'
 import Projectlist from '../pages/Projectlist'
+import Header from '../components/Header'
 
 function MainRout() {
   return (

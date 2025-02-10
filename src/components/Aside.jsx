@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Header from './Header';
 
-function Aside() {
+function Aside({ isOpen, toggleSidebar }) {
+    
     return (
-        <div className='border-e border-[#17191B] h-[800px] w-[250px] bg-black sticky top-0 p-1'>
+       
+       
+        <div  className={` h-screen w-[250px] bg-black border-e border-[#17191B] p-1 transition-transform duration-300 z-50
+            ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:block hidden`}>
+               <button
+        className="md:hidden text-white text-xl p-2 absolute top-2 right-2"
+        onClick={toggleSidebar}
+      >
+        ✖
+      </button>
             <div className=' h-[100px] flex justify-center items-center'>
                 <img src="https://i.pinimg.com/736x/d6/10/d9/d610d9d365f203d7eda5a1cd752a8682.jpg" alt="" width={"150px"} className='h-[100px]'/>
                 </div>
