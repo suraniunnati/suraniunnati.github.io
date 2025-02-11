@@ -1,9 +1,9 @@
 import React from 'react'
-import photo from '../assets/photo.jpg'
+
 
 function About() {
   return (
-    <div className='h-[700px] xl:flex items-center justify-around relative'>
+    <div className='h-[800px] xl:h-[700px] xl:flex items-center justify-around relative'>
       <img src="https://static.vecteezy.com/system/resources/previews/034/327/000/non_2x/bright-blue-cyan-abstract-glossy-stripes-on-black-background-vector.jpg" alt="" className='absolute bottom-0 h-[300px] w-full opacity-5'/>
       <div className='xl:w-[40%] p-4'>
         <h1 className='wow animate__animated animate__bounceInDown font-bold text-4xl mb-5'>ABOUT ME</h1>
