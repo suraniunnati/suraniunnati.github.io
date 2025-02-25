@@ -11,7 +11,7 @@ import Header from '../components/Header'
 
 function MainRout() {
   return (
-    <div className='w-full'>
+    <div className='w-full h-screen overflow-auto'>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>
