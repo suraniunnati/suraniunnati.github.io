@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({toggleSidebar}) {
+function Header({ toggleSidebar }) {
   return (
     <div className="h-[50px] flex items-center p-2 border md:hidden bg-black text-white">
       <i className="fa-solid fa-bars cursor-pointer" onClick={toggleSidebar}></i>

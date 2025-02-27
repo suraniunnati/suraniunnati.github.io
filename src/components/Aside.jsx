@@ -1,19 +1,22 @@
 
+import { useState } from 'react';
 import { Link } from 'react-router-dom'
 
-function Aside({ isOpen, toggleSidebar }) {
+function Aside({toggleSidebar}) {
+
+    // const [isOpen, setIsOpen] = useState(true);
+
+    // const close = () => {
+    //     setIsOpen(false);
+    // };
+
+    // if (!isOpen) return null;
     
     return (
        
-       
-        <div  className={` h-screen w-[250px] bg-black border-e border-[#17191B] p-1 transition-transform duration-300 z-50
-            ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:block hidden`}>
-               <button
-        className="md:hidden text-white text-xl p-2 absolute top-2 right-2"
-        onClick={toggleSidebar}
-      >
-        ✖
-      </button>
+        <div  className=' h-screen w-[250px] bg-black border-e border-[#17191B] p-1 relative'>
+            <i class="fa-solid fa-xmark absolute right-2 top-2 md:hidden" onClick={toggleSidebar}></i>
+             
             <div className=' h-[100px] flex justify-center items-center'>
                 <img src="https://i.pinimg.com/736x/d6/10/d9/d610d9d365f203d7eda5a1cd752a8682.jpg" alt="" width={"150px"} className='h-[100px]'/>
                 </div>

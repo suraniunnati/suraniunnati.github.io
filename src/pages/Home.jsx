@@ -5,6 +5,7 @@ import Skill from './Skill';
 import About from './About';
 import Education from './Education';
 import Project from './Project';
+import Aside from '../components/Aside';
 
 
 function Home() {
@@ -22,7 +23,9 @@ function Home() {
   }, [words.length]);
 
   return (
-    <>
+    <div>
+    
+    <div className=''>
     <div className='home  h-[720px] w-full relative'>
       <div className='p-5 xl:w-[50%] absolute top-20 xl:left-20'>
         <h1 className='wow animate__animated animate__backInLeft mt-3 text-2xl xl:text-5xl font-bold'>HI, I'M UNNATI SURANI!</h1>
@@ -43,7 +46,8 @@ function Home() {
     <Education/>
     <Project/>
     <Contact/>
-    </>
+    </div>
+    </div>
   );
 }
 

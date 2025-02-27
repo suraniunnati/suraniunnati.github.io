@@ -2,6 +2,7 @@ import React from 'react'
 
 function Education() {
   return (
+    <>
     <div className='edu xl:h-[720px] flex justify-around'>
       <div className='w-[40%] mt-20'>
         <h1 className='wow animate__animated animate__flipInX font-bold text-3xl'>Education</h1>
@@ -42,6 +43,7 @@ function Education() {
       
       </div>
     </div>
+    </>
   )
 }
 

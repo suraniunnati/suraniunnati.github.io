@@ -13,7 +13,7 @@ import photoshop from '../assets/photoshop.png'
 
 function Skill() {
   return (
-    <div className='mainskill pb-20'>
+    <div className='mainskill pb-20 '>
       <div className='wow animate__animated animate__flipInX text-center font-bold text-5xl p-10'>MY SKILLS</div>
       <div className='w-[60%] md:w-[80%] xl:w-[70%] grid grid-clos-2 md:grid-cols-4 xl:grid-cols-6 gap-10 m-auto mt-10'>
         <div className='wow animate__animated animate__lightSpeedInLeft skill shadow-md shadow-white h-[110px] rounded-lg font-bold flex flex-col items-center justify-between p-1'><img src={html} alt="" width={"70px"}/>Html</div>
